@@ -4,9 +4,9 @@ def divisible_by_2(my_list=[]):
     len_list = len(my_list)
     for i in range(len_list):
         if my_list[i] % 2 == 0:
-            return nultiples.append(True)
+            return nultiples[].append(True)
         else:
-            return multiples.append(False)
+            return multiples[].append(False)
 
 
 return (multiples)
