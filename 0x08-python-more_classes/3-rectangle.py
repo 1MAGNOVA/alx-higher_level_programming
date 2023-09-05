@@ -49,8 +49,11 @@ class Rectangle:
             return (2 * self.__width) + (2 * self.__height)
 
     def __str__(self):
-        """return pintable string representation of rectangle"""
-        if self.__width != 0 and self.__height != 0:
-            string += "\n".join("#" * self.__width)
-            for j in range(self.__height)
-        return string
+        total = ""
+        if self.__height == 0 or self.width == 0:
+            return total
+        for i in range(self.__height):
+            total += ("#" * self.__width)
+            if i is not self.__height - 1:
+                total += "\n"
+        return total
