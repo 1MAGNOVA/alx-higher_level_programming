@@ -2,7 +2,7 @@
 
 
 class Rectangle:
-    
+
     def __init__(self, name):
 
-Rectangle.name()
+        Rectangle.name()
