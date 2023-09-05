@@ -5,6 +5,7 @@
 class Rectangle:
     """ contains attributes: width, height as @properties"""
     def __init__(self, width=0, height=0):
+        """initializes the rectangle props"""
         self.width = width
         self.height = height
 
