@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-def copy_list(L):
-    L.lower() = list[]
-    return L.lower[:]
+def copy_list(l):
+    return l[:]
